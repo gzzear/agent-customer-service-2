@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+# 课包前端构建产物需要纳入版本库
+!llm_backend/static/dist/
+!llm_backend/static/dist/**
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+log/
+
+# Local development
+.env.local
+.env.*.local
+!.env.example
+
+# Generated / local artifacts (data products only; do not ignore library packages named cache/)
+lancedb/
+data/output/
+data/cache/
+data/update_output/
+*.lance
